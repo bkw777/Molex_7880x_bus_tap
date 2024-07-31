@@ -3,7 +3,7 @@ Bus tap to fit between a Molex 78805 socket and a chip in a Molex 78802 carrier
 
 ![](Molex_7880x_28_BUS_TAP.jpg)
 
-Provides a connection point for a logic analyzer or oscilloscope to tap the bus between a Molex 78805 socket and a mating Molex 78802 carrier module that would normally be 
+Provides a connection point for a logic analyzer or oscilloscope to tap the bus between a Molex 78805 socket and a mating Molex 78802 carrier module that would normally be in the socket.
 
 ## Parts
 
