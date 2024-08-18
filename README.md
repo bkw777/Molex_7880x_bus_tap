@@ -20,6 +20,7 @@ Cable lengths:
 * 8" is still not long enough to allow using any other side but the nearest, so the added length only hurts the signal and doesn't get you anything.
 * 10" untested
 * 12" doesn't work
+
 So there is no point to getting anything but a 4" cable.
 
 Molex 78805 socket: These are no longer made. Find me on the M100 mail list.  
