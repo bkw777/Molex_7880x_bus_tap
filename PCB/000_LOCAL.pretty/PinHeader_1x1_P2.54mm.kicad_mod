@@ -1,0 +1,134 @@
+(footprint "PinHeader_1x1_P2.54mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole pin header, 1x1, 2.54mm pitch")
+	(tags "Through hole pin header THT 1x1 2.54mm")
+	(property "Reference" "REF**"
+		(at 1.27 -2.33 0)
+		(layer "F.SilkS")
+		(uuid "b09d18a6-596b-48c6-aaae-0a537fea40cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PinHeader_1x1_P2.54mm"
+		(at 0 3.81 0)
+		(layer "F.Fab")
+		(uuid "ee3c939b-d1a4-4142-ae32-cf8ebcc4eedb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4375ea7-c1fc-4154-a870-de76894c1574")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09414f26-1744-499b-92e1-c8d6bd3b32e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5314a52f-a0bb-4468-966a-fa1e09f3cd20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 1.27 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e94e3808-4cfa-4cc9-b44a-a0e7b71c9381")
+	)
+	(fp_rect
+		(start -1.47 -1.47)
+		(end 1.47 1.47)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "37b42961-8c28-4648-8947-fcc6d545751a")
+	)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 1.27 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4e2ccc65-7ef5-40ca-8fed-5595239e3a0b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.54 180)
+		(layer "F.Fab")
+		(uuid "88cdf683-b865-48fb-9a4b-135269c7d193")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "5ea8be9e-5fd4-4a15-aa69-1e8ee98959d5")
+	)
+	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/PinHeader_1x01_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
