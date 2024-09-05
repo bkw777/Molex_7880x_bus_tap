@@ -63,7 +63,7 @@ Cable notes:
 <tr> <td>AD1</td><td></td><td></td><td>AD5</td> <td></td>  <td>D1</td><td></td><td></td><td>D5</td> </tr>
 <tr> <td>AD2</td><td></td><td></td><td>AD4</td> <td></td>  <td>D2</td><td></td><td></td><td>D4</td> </tr>
 
-<tr> <td>GND</td><td>13</td><td>14</td><td>AD3</td> <td></td>  <td>GND</td><td>13</td><td>14</td><td>D3</td> </tr>
+<tr> <td>GND</td><td>14</td><td>15</td><td>AD3</td> <td></td>  <td>GND</td><td>14</td><td>15</td><td>D3</td> </tr>
 </table>
 <!--
 |     |     |     |     |     |     |     |     |     |     |
@@ -81,12 +81,12 @@ Cable notes:
 | AD0 |     |     | AD6 |     |     | D0  |     |     | D6  |
 | AD1 |     |     | AD5 |     |     | D1  |     |     | D5  |
 | AD2 |     |     | AD4 |     |     | D2  |     |     | D4  |
-| GND | 13  | 14  | AD3 |     |     | GND | 13  | 14  | D3  |
+| GND | 14  | 15  | AD3 |     |     | GND | 14  | 15  | D3  |
 -->
 
 # GND pins work-around
 This thing could really use a bunch more GND pins, both for logic analyzer probes and for a place to clip oscilloscope probe alligator clips.
-Currently there is only the single GND pin which is pin 13.
+Currently there is only the single GND pin which is pin 14.
 
 For now a simple work-around that provides both extra pins for logic analyzer probe grounds and a perfect place for a scope probe alligator clip, is just a piece of single row male pin header with a wire soldered to bridge all of the posts, and a single short female-female dupont jumper to connect to the single gnd pin.
 
