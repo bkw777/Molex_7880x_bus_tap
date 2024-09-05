@@ -27,7 +27,7 @@ Molex 78805 socket: These are no longer made. Find me on the M100 mail list. I h
 
 Other possible solutions for the socket:  
 * Once in a great while they do turn up on ebay or other places on-line:  
-  https://www.dhgate.com/product/for-molex-dip28p-ic-chip-socket-silver-plated/835617844.html?d1_page_num=1&dspm=pcen.sp.list.8.xQtpRdBQuea0B0tRWzIm&resource_id=835617844&scm_id=search.LIST..@.keywordSearchFlow|v2|670_1,42_5|c75c0ba496ad4230b078593cf25a4492|bestmatch.newC.#s1-6-1;searl|1442160181:7&stockCountry=CN  
+  https://www.dhgate.com/product/for-molex-dip28p-ic-chip-socket-silver-plated/835617844.html  
   https://www.ebay.com/itm/153988317907  
   Search "molex ic socket" and then ignore all the normal dip sockets.  
   Other search terms: 8878 28S, A78805-0518, A78805-0918, 15-29-9282, 15-41-2283  
