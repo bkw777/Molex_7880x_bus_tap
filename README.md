@@ -23,12 +23,25 @@ FFC cable - 4" gold - Molex 0150390449 : https://www.digikey.com/en/products/det
 FFC Cable - 6" gold - Molex 0150390453 : https://www.digikey.com/en/products/detail/molex/0150390453/11581883  
 Other FFC Cables in other lengths, copper weight, plating options: https://www.digikey.com/short/pqq5pd04  
 
-Molex 78805 socket: These are no longer made. Find me on the M100 mail list.  
-Other options in place of the socket, none very good...  
-* Once in a great while they turn up on ebay or other on-line parts supplier
-* Use a standard DIP-28 socket, dupont wires, and a DIP-28 test clip. https://ebay.com/itm/403250810350  
-* Solder long pins in place of the socket and wedge the module between the pins. https://www.digikey.com/en/products/detail/samtec-inc/ZW-16-15-F-S-225-175/6614101
-The width of the module is a little wider than the width of the pins, so the pins need to bend out a little.  
+Molex 78805 socket: These are no longer made. Find me on the M100 mail list. I have some and will sell them one at a time until gone.  
+
+Other possible solutions for the socket:  
+* Once in a great while they do turn up on ebay or other places on-line:  
+  https://www.dhgate.com/product/for-molex-dip28p-ic-chip-socket-silver-plated/835617844.html?d1_page_num=1&dspm=pcen.sp.list.8.xQtpRdBQuea0B0tRWzIm&resource_id=835617844&scm_id=search.LIST..@.keywordSearchFlow|v2|670_1,42_5|c75c0ba496ad4230b078593cf25a4492|bestmatch.newC.#s1-6-1;searl|1442160181:7&stockCountry=CN  
+  https://www.ebay.com/itm/153988317907  
+  Search "molex ic socket" and then ignore all the normal dip sockets.  
+  Other search terms: 8878 28S, A78805-0518, A78805-0918, 15-29-9282, 15-41-2283  
+  Or any other part number from here: https://github.com/bkw777/Molex78802_Module/blob/master/references/015299282_sd_corrected.pdf  
+  Particularly detail-1, detail-10, detail-11 as those ones all have key slots at positions 1,5,9. The peg positions on the bottom don't matter because they can just be cut off.  
+  (Or maybe I'll update the pcb to include drill holes in all 8 peg positions. Really any version of the socket would be better than nothing if you found any at all, just cut the missing key slots if needed.)  
+* DIP-28 (or more) test clip and a standard dip-28 socket or male pin headers to connect the wires.  
+  When searching for a test clip, make sure it opens wide enough for 600 mill / aka 0.6" wide dip-28, not just 300 mil.  
+  https://duckduckgo.com/?t=h_&q=test+clip+dip+28+32+40+600+0.6
+* Solder long wire-wrap pins in place of the socket and wedge the module between the pins.  
+  https://www.digikey.com/en/products/detail/samtec-inc/ZW-16-15-F-S-225-175/6614101  
+  The width of the module is a little wider than the width of the pins, so the pins would need to be bent, or change the PCB to provide a footprint with just the right spacing.  
+* Change the PCB to use 2 of these: https://www.digikey.com/en/products/detail/samtec-inc/SIR1-15-L-S/10218718  
+* Change the PCB to use these: https://lectronz.com/products/flexypin-pack-of-100
 
 TODO: Design a socket that can be printed and just needs plain wire for the contacts.
 
