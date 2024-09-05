@@ -84,6 +84,15 @@ Cable notes:
 | GND | 13  | 14  | AD3 |     |     | GND | 13  | 14  | D3  |
 -->
 
+# GND pins work-around
+This thing could really use a bunch more GND pins, both for logic analyzer probes and for a place to clip oscilloscope probe alligator clips.
+Currently there is only the single GND pin which is pin 13.
+
+For now a simple work-around that provides both extra pins for logic analyzer probe grounds and a perfect place for a scope probe alligator clip, is just a piece of single row male pin header with a wire soldered to bridge all of the posts, and a single short female-female dupont jumper to connect to the single gnd pin.
+
+![](gnd_pins_workaround.jpg)
+![](scope_probe_gnd_alligator.jpg)
+
 # Related
 http://tandy.wiki/Molex78802_Module  
 https://github.com/bkw777/M4ROM  
